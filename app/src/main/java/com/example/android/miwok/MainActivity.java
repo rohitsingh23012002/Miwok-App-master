@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         number.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,NumbersActivity.class);
+                Intent i = new Intent(MainActivity.this, NumbersActivity.class);
                 startActivity(i);
             }
         });
@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
         color.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,ColorsActivity.class);
+                Intent i = new Intent(MainActivity.this, ColorsActivity.class);
                 startActivity(i);
             }
         });
@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         family.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,FamilyActivity.class);
+                Intent i = new Intent(MainActivity.this, FamilyActivity.class);
                 startActivity(i);
             }
         });
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
         phrase.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this,PhrasesActivity.class);
+                Intent i = new Intent(MainActivity.this, PhrasesActivity.class);
                 startActivity(i);
             }
         });

@@ -16,7 +16,7 @@
         <activity
             android:name=".FamilyActivity"
             android:exported="false"
-            android:label="Family" />
+            android:label="Family Members" />
         <activity
             android:name=".ColorsActivity"
             android:exported="false"

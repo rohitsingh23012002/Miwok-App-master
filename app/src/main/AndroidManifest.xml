@@ -12,19 +12,41 @@
         <activity
             android:name=".PhrasesActivity"
             android:exported="false"
-            android:label="Phrases" />
+            android:label="Phrases"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
         <activity
             android:name=".FamilyActivity"
             android:exported="false"
-            android:label="Family Members" />
+            android:label="Family Members"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
         <activity
             android:name=".ColorsActivity"
             android:exported="false"
-            android:label="colors" />
+            android:label="colors"  android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
         <activity
             android:name=".NumbersActivity"
             android:exported="false"
-            android:label="Numbers" />
+            android:label="Numbers"  android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+
+        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="true">
